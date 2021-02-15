@@ -1,0 +1,698 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: proxima;
+    src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+.head {
+    height: 80px;
+    border-bottom: 1px solid #e5e8ea;
+}
+
+.logo img {
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 60px;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.bell {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+    font-family: proxima;
+}
+
+.bell small {
+    color: black;
+}
+
+.bell a:active,
+.bell a:link,
+.bell a:visited,
+.bell a:hover {
+    text-decoration: none;
+}
+
+.notify {
+    padding-right: 30px;
+}
+
+.profile {
+    padding-right: 30px;
+}
+
+.items {
+    padding-right: 30px;
+}
+
+.search {
+    padding-right: 90px;
+}
+
+.bell input {
+    border: none;
+    opacity: 0.5;
+    width: 60px;
+}
+
+.section-title span {
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2390E5;
+}
+
+.section-title small {
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section-title {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.all-cat-cal {
+    background-color: white;
+}
+
+.all-cat-panel {
+    background-color: #f1f3f4;
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+
+.section-head {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.section-head small {
+    text-transform: uppercase;
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.section-sub {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.cable-docks,
+.cases-films,
+.charging-device,
+.connected-home,
+.headphone {
+    padding-top: 15px;
+}
+
+.accessories small,
+.cable-docks small,
+.cases-films small,
+.charging-device small,
+.connected-home small,
+.headphone small {
+    color: black;
+    font-family: proxima;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.accessories a:hover,
+.cable-docks a:hover,
+.cases-films a:hover,
+.charging-device a:hover,
+.connected-home a:hover,
+.headphone a:hover,
+.accessories a:link,
+.cable-docks a:link,
+.cases-films a:link,
+.charging-device a:link,
+.connected-home a:link,
+.headphone a:link,
+.accessories a:active,
+.cable-docks a:active,
+.cases-films a:active,
+.charging-device a:active,
+.connected-home a:active,
+.headphone a:active {
+    text-decoration: none;
+}
+
+.accessories:hover small,
+.cable-docks:hover small,
+.cases-films:hover small,
+.charging-device:hover small,
+.connected-home:hover small,
+.headphone:hover small {
+    text-decoration: none;
+    color: #2390E5;
+}
+
+.section-sub .active small {
+    color: #2390E5;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    max-height: 366px;
+    margin-left: 9px;
+    max-height: 325px;
+}
+
+.carousel-inner {
+    background-color: #2390E5;
+}
+
+.carousel-circle {
+    background-color: white;
+}
+
+.carousel-indicators {
+    top: 300px;
+}
+
+.image-cal img {
+    height: 325px;
+    padding-left: 200px;
+    width: auto;
+}
+
+.testimoninal-caption .iphone {
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.testimoninal-caption h4 {
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.testimoninal-caption:hover a,
+.testimoninal-caption:active a,
+.testimoninal-caption:visited a {
+    text-decoration: none;
+}
+
+.testimoninal-caption .line1 {
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.testimoninal-caption p {
+    font-size: 15px;
+    color: white;
+    padding-left: 40px;
+}
+
+.testimoninal-caption h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 18%;
+    max-width: 160px;
+    width: 100%;
+    height: 100%;
+    max-height: 3px;
+    background-color: white;
+    margin-left: auto;
+}
+
+.price-side {
+    padding-top: 24px;
+    margin-left: 21px;
+    background-color: white;
+}
+
+.price {
+    padding-top: 20px;
+    background-color: #f1f3f4;
+    padding-left: 30px;
+    width: 379px;
+    padding-bottom: 30px;
+}
+
+.sub-head small {
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.min-max,
+.input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.min,
+.max {
+    padding-top: 10px;
+}
+
+.max p {
+    padding-right: 30px;
+    font-family: proxima;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.min p {
+    font-family: proxima;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.input-box input {
+    max-width: 120px;
+    border: none;
+}
+
+.input-left {
+    margin-left: 2px;
+}
+
+.input-right {
+    margin-right: 30px;
+}
+
+.color,
+.brand,
+.More {
+    padding-top: 24px;
+    margin-left: 21px;
+    background-color: white;
+}
+
+.color-code,
+.brand-name {
+    padding-top: 20px;
+    background-color: #f1f3f4;
+    padding-left: 30px;
+    width: 379px;
+    padding-bottom: 30px;
+}
+
+.brand-list ul li {
+    list-style-type: none;
+    font-weight: 600;
+    justify-content: space-between;
+    display: flex;
+    font-family: proxima;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 30px;
+    color: black;
+}
+
+.brand-list ul a:active,
+.brand-list ul a:link,
+.brand-list ul a:visited,
+.brand-list ul a:hover {
+    text-decoration: none;
+}
+
+.brand-list ul .active {
+    color: #2390E5;
+    opacity: 1;
+}
+
+.brand-list ul .active span {
+    color: #2390E5;
+    opacity: 1;
+}
+
+.brand-list ul li:hover {
+    color: #2390E5;
+}
+
+.brand-list ul span {
+    opacity: 0.5;
+}
+
+.more-button {
+    padding-top: 20px;
+    background-color: #f1f3f4;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 379px;
+    padding-bottom: 20px;
+}
+
+.more-center {
+    text-align: center;
+}
+
+.more-button small {
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.more-center a:active,
+.more-center a:visited,
+.more-center a:hover,
+.more-center a:link {
+    text-decoration: none;
+}
+
+.filter {
+    padding-top: 24px;
+    background-color: white;
+    margin-left: 45px;
+    margin-right: 85px;
+    flex-direction: column;
+}
+
+.filter-item {
+    padding-top: 10px;
+    background-color: #f1f3f4;
+    padding-bottom: 10px;
+    align-items: left;
+    gap: 30px;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-item p {
+    padding-left: 20px;
+    font-family: proxima;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.filter-item label {
+    font-family: proxima;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.filter-item .show {
+    margin-right: 100px;
+}
+
+.filter-item .grid {
+    color: #2390E5;
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.filter-item .nav {
+    opacity: 0.5;
+    padding-right: 20px;
+}
+
+.filter-item .show-in,
+.sortby-in {
+    width: 94px;
+    background-color: #f1f3f4;
+    border-color: #e5e8ea;
+}
+
+.product-grid {
+    padding-left: 48px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 24px;
+    margin-right: 85px;
+}
+
+.product-grid .product {
+    border: 1px solid #f1f3f4;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+.product-grid .product h5 {
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.product p {
+    color: rgb(196, 8, 8);
+}
+
+.product p span {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.rating>span:before {
+    content: "\2605";
+    position: absolute;
+    color: yellow;
+}
+
+.rating .black:before {
+    content: "";
+    position: absolute;
+}
+
+.product a,
+.product a:active,
+.product a:hover,
+.product a:visited,
+.product a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.num-pages {
+    padding-top: 24px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 130px;
+}
+
+.num-button {
+    background-color: #f6f7f8;
+    text-align: center;
+    gap: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.num-button .pgn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.num-button a {
+    font-family: proxima;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.num-button .active {
+    background-color: black;
+    color: white;
+}
+
+.num-button .pgn p {
+    margin-bottom: 0px;
+}
+
+.num-button a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.num-button .active:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.num-button a:link,
+.num-button a:visited,
+.num-button a {
+    text-decoration: none;
+}
+
+.footer_top {
+    display: flex;
+    gap: 210px;
+    margin-top: 100px;
+    border-top: 1px solid #e5e8ea;
+    border-bottom: 1px solid #e5e8ea;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.footer_right,
+.footer_mid,
+.footer_left {
+    width: 20%;
+    font-size: 15px;
+    color: black;
+}
+
+.footer_mid,
+.footer_right {
+    margin-top: 25px;
+}
+
+.footer_left img {
+    height: 70px;
+    margin: 0;
+}
+
+.footer_right h3,
+.footer_mid h3 {
+    font-size: 25px;
+    display: block;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    line-height: 70px;
+}
+
+.footer_mid .icons img {
+    margin: 0 20px;
+    height: 20px;
+}
+
+.footer_right p,
+.footer_right address {
+    margin: 0;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.bottom-head {
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.bottom-head p {
+    color: gray;
+}
+
+.color-select {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.color-select label>input[type="radio"] {
+    display: none;
+}
+
+.color-select label>input[type="radio"]+*::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+
+.color-select label>#red+*::before {
+    background: red;
+    border-color: red;
+}
+
+.color-select label>#blue+*::before {
+    background: blue;
+    border-color: blue;
+}
+
+.color-select label>#black+*::before {
+    background: black;
+    border-color: black;
+}
+
+.color-select label>#yellow+*::before {
+    background: yellow;
+    border-color: yellow;
+}
+
+.color-select label>#pink+*::before {
+    background: #e75480;
+    border-color: #e75480;
+}
+
+.color-select label>#cream+*::before {
+    background: #F9e5bc;
+    border-color: #F9e5bc;
+}
+
+.color-select label #blue:checked+*::before {
+    background: radial-gradient(blue 0%, blue 40%, transparent 50%, transparent);
+    border-color: blue;
+}
+
+.color-select label #red:checked+*::before {
+    background: radial-gradient(red 0%, red 40%, transparent 50%, transparent);
+    border-color: red;
+}
+
+.color-select label #black:checked+*::before {
+    background: radial-gradient(black 0%, black 40%, transparent 50%, transparent);
+    border-color: black;
+}
+
+.color-select label #yellow:checked+*::before {
+    background: radial-gradient(yellow 0%, yellow 40%, transparent 50%, transparent);
+    border-color: yellow;
+}
+
+.color-select label #pink:checked+*::before {
+    background: radial-gradient(#e75480 0%, #e75480 40%, transparent 50%, transparent);
+    border-color: #e75480;
+}
+
+.color-select label #cream:checked+*::before {
+    background: radial-gradient(#F9e5bc 0%, #F9e5bc 40%, transparent 50%, transparent);
+    border-color: #F9e5bc;
+}
